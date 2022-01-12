@@ -23,6 +23,9 @@ jobs:
           echo curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
                     -H "Authorization: Bearer HBmtn0pqqo4t-yxITCKRIASOOev3cJvmtC-pn1ap" \
                     -H "Content-Type:application/json"
+          echo curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
+                    -H "Authorization: Bearer 0gFn_XGBkr16XlDzGOKGOXmDF1WdR5Vd14XrUO3l" \
+                    -H "Content-Type:application/json"
     # Proof HTML                
       - uses: anishathalye/proof-html@v1.1.0
         with:
